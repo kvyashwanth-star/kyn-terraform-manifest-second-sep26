@@ -7,7 +7,7 @@ variable "instance" {
   }))
   default = {
     "web1" = {
-      instance_type = "t2micro"
+      instance_type = "t2.micro"
       availablity_zone = "us-east-1a"
     subnet_key = "subnet1"
     }
